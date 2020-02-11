@@ -12,7 +12,7 @@ class Controller
     }
 
     //load view
-    public function view($view)
+    public function view($view, $data = [])
     {   //check for the view file
         if(file_exists('../app/views/' . $view . '.php'))
         {   //require the view file if found

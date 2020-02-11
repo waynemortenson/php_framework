@@ -4,7 +4,7 @@
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'phpfw');
 define('DB_USER', 'root');
-define('DB_PASS', '123456');
+define('DB_PASS', 'mysql');
 
 //app root - to remove the need to manually change url root
 define('APPROOT', dirname(dirname(__FILE__)));

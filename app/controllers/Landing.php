@@ -4,6 +4,7 @@ class Landing extends Controller
 {
     public function __construct()
     {
+        $this->testModel = $this->model('TestModel');
     }
 
 

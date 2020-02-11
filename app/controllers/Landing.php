@@ -9,12 +9,11 @@ class Landing extends Controller
 
     public function index()
     {
+        $this->view('landing/index');
     }
     
-    public function about($id)
+    public function about()
     {
-        if(isset($id)){
-
-        }
+        $this->view('landing/about');
     }
 }

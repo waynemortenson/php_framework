@@ -1,6 +1,8 @@
 <?php
+//load config
+include_once 'config/config.php';
 
-include_once 'libraries/Controller.php';
-include_once 'libraries/Core.php';
-include_once 'libraries/Database.php';
-
+//autoloader
+spl_autoload_register(function($className){
+    require_once 'libraries/' . $className . '.php';
+});
